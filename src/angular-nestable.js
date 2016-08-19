@@ -209,7 +209,7 @@
 
 				    if (draggableHandle) {
 				        listItem = $('<li class="dd-item dd3-item"></li>');
-				        listElement = $('<div class="dd-handle dd3-handle">&nbsp;</div>');
+				        listElement = $('<div class="dd-handle dd3-handle">Drag</div>');
 				        listElement.appendTo(listItem);
 				        content.append(tpl).appendTo(listItem);
 
